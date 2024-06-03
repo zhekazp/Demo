@@ -1,0 +1,28 @@
+header {
+    height: 80px;
+    text-align: center;
+}
+
+nav{
+    padding: 0 15px;
+}
+
+h5{
+    margin: 10px 0 10px 0;
+}
+
+.logo{
+    width: 150px;
+    position: absolute;
+    left: 15px;
+}
+
+.logo2{
+    width: 80px;
+    position: absolute;
+    right: 15px;
+}
+
+.mainImg{
+    width: 100%;
+}
