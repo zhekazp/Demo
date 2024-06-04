@@ -1,67 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/materialize.css">
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/materialize.js" defer></script>
+    <script src="./js/script.js" defer></script>
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <img class="logo" src="./img/logo.png" alt="logo">
         <img class="logo2" src="./img/logo2.jpg" alt="logo">
-        <h5>Heim Enerie Management Sysytem</h5>
+        <h5>Heim Energie Management System</h5>
         <h5>(HEMS)</h5>
     </header>
     <nav class="green accent-3">
-        
+
         <div class="nav-wrapper">
             <a href="#" class="brand-logo">H E M S</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">LIVE DEMO</a></li>
-            <li><a href="#">PROJEKTE</a></li>
-            <li><a href="#">ÜBER UNS</a></li>
-            <li><a href="#">KONTAKT & IMPRESSUM</a></li>
-          </ul>
-          <ul class="sidenav" id="mobile-demo">
-            <li><a href="sass.html">Sass</a></li>
-            <li><a href="badges.html">Components</a></li>
-            <li><a href="collapsible.html">JavaScript</a></li>
-          </ul>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger">
+                <i id="menu" class="material-icons">menu</i>
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">LIVE DEMO</a></li>
+                <li><a href="#">PROJEKTE</a></li>
+                <li><a href="#">ÜBER UNS</a></li>
+                <li><a href="#">KONTAKT & IMPRESSUM</a></li>
+            </ul>
+            <ul class="sidenav" id="mobile-demo">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">JavaScript</a></li>
+            </ul>
         </div>
-      </nav>
-      
-      <main>
-        <img class="mainImg" src="./img/main.png" alt="main img">
-      </main>
-      <footer class="page-footer green accent-3">
-        <div class="container">
-          <div class="row">
-            <div class="col l6 s12">
-              <h5 class="white-text">Footer Content</h5>
-              <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+    </nav>
+    <div>
+        <div class="sideMenu">
+            <div class="logoText">
+                <a href='#'><span>H E M S</span></a>
             </div>
-            <div class="col l4 offset-l2 s12">
-              <h5 class="white-text">Links</h5>
-              <ul>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-              </ul>
+            <div class="menuNaw">
+                <p><a href="#">LIVE DEMO</a></p>
+                <p><a href="#">PROJEKTE</a></p>
+                <p><a href="#">ÜBER UNS</a></p>
+                <p><a href="#">KONTAKT & IMPRESSUM</a></p>
             </div>
-          </div>
+            <div class="menuNaw">
+                <p>TelNummer</p>
+            </div>
         </div>
-        <div class="footer-copyright">
-          <div class="container">
-          © 2014 Copyright Text
-          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-          </div>
+        <div class="sideMenu2">
+            <div class='filterClose'></div>
         </div>
-      </footer>
+        <main>
+            <div class="firstBlock">
+                <img class="mainImg" src="./img/main.png" alt="main img">
+            </div>
+            <div class="blocks">
+                <h2>Was bietet unser HEMS?</h2>
+                <p>- Zentrale Steuerung von Strom, Wärme und Mobilität im Haus</p>
+                <p>- Optimale Nutzung des selbst erzeugten Photovoltaik Stroms</p>
+                <p>- Optimierung der Kosten für den Netzbezug (dyn. Stromtarif)</p>
+                <p>- Optimierung der Unabhängigkeit vom Stromnetz</p>
+                <p>- Optimierung des Komforts und der Energiebilanz</p>
+                <p>- Zentrale Einheit zur Steuerung & Überwachung der Energieflüsse</p>
+                <p>
+                    - Erweiterbarkeit um zusätzliche Komponenten zur Haussteuerung
+                    (z.B. Lichtsteuerung, Rolladensteuerung, etc.)
+                </p>
+                <h5>Las Dich gerne an einem unserer Referenzstandorte beraten und wir nehmen uns Zeit für eine
+                    ausführliche
+                    und persönliche Einführung in unser System...</h5>
+            </div>
+            <div class="blocks fix">
+                <img class="blockImage" src="./img/page2.png" alt="concept image">
+            </div>
+            <div class="block">
+                <h2>Unsere Leistungen im Überblick:</h2>
+                <p>- Telefonische Beratung rund um das Thema Energiemanagement</p>
+                <p>- Vor-Ort-Besichtigung (im Raum Bayern) zur Erstellung von Machbarkeitsstudien & Bewertung von
+                    Maßnahmen
+                </p>
+                <p>- Erstellung eines Gesamtkonzepts für ein Energiemanagementsystem</p>
+                <p>- Durchführung von notwendigen Installationsarbeiten für das Energiemanagementsystem</p>
+                <p>- Optional: Installation/Erweiterung von PV-Systemen z.B. durch Ergänzung von Batteriespeicher &
+                    Wallbox
+                </p>
+                <p>- Einrichtung & Konfiguration vom Energiemanagementsystem</p>
+                <p>- Fortführende Begleitung z.B. bei gewünschten Erweiterungen</p>
+                <p>- Fortführende Beratung bei Fragen/Problemen rund um das Energiemanagementsystem</p>
+                <h5>Lass Dir ein faires Angebot für Dein persönliches HEMS erstellen...wir begleiten und unterstützen
+                    Dich
+                    sehr gerne auf diesem Weg!</h5>
+            </div>
+        </main>
+        <footer class="page-footer green accent-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Heim Energie Management System</h5>
+                        <p class="grey-text text-lighten-4">Tel Nummer</p>
+                        <p class="grey-text text-lighten-4">Email</p>
+                        <p class="grey-text text-lighten-4">Andere Information</p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Links</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="#!">LIVE DEMO</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">PROJEKTE</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">ÜBER UNS</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">KONTAKT & IMPRESSUM</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    <span id="year"></span>
+                    <a class="grey-text text-lighten-4 right" href="#!">H E M S</a>
+                </div>
+            </div>
+        </footer>
 </body>
+
 </html>
